@@ -931,3 +931,302 @@ footer {
     }
 }
 
+@media (min-width: 1024px){
+    html{
+      font-size: 2.7vw;
+    }
+    header{
+      flex-direction: row;
+      padding: 34px 160px 31px;
+    }
+    .upper-half{
+      width: 100%;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-content: space-between;
+
+    }
+    .options{
+      width: 100%;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .title{
+      width: 160px;
+      font-size: 22px;
+      line-height: 28px;
+    }
+    .nav-link{
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.16px;
+    }
+    /*  */
+    .first-background{
+      background-image: url(home-back/first-desktop.png);
+      flex-direction: row-reverse;
+      padding: 128px 305px 128px 160px;
+      align-items: start;
+      justify-content: space-between;
+    }
+    .to-be-center{
+      align-items: start;
+      justify-content: start;
+      padding: 66px 64px 75px;
+      margin-top: 0;
+      width:45%;
+    }
+    .first-image-text{
+      width: 30%;
+      font-size: 72px;
+      line-height: 76px; 
+    }
+    .the-issue-content-head{
+      margin: 0;
+      font-size: 44px;
+      line-height: 56px;
+      text-align: left;
+    }
+    .the-issue-content-down{
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.16px;
+      padding: 0;
+      margin-top: 30px;
+    }
+    /*  */
+    .below-first-background{
+      padding: 75px 160px 78px;
+    }
+    .actions{
+      gap:56px;
+      flex-direction: row;
+    }
+    .learn-volunteer{
+      gap:56px;
+    }
+    .share-donate{
+      gap:56px;
+    }
+    .action-head{
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .action-content{
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.16px;
+    }
+    /*  */
+    .what-we-do-section{
+      padding: 88px 158px 160px 160px;
+      align-items: flex-start;
+    }
+    .what-we-do-text{
+      font-size: 44px;
+      line-height: 56px;
+      text-align: left;
+    }
+    .contents-of-what{
+      display: flex;
+      flex-direction: row;
+      gap:32px;
+      justify-content: space-between;
+    }
+    .what-we-do-content{
+      align-items: flex-start;
+      width: 22.5%;
+      padding-top: 200px;
+    }
+    .what-we-image{
+      width: 100%;
+      height: 44%;
+    }
+    .what-content-head-body{
+      width: 98%;
+    }
+    .what-content-head{
+      text-align: left;
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .what-content-body{
+      text-align: left;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.16px;
+    }
+    /*  */
+    .second-background{
+      background-image: url(home-back/second-desktop.png);
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 143px 160px 127px;
+    }
+    .second-image-text{
+      font-size: 72px;
+      line-height: 76px;
+      gap:57px;
+      width:35%
+    }
+    .do-you-know-boxes{
+      margin: 0;
+      gap: 32px;
+      align-items: flex-end;
+    }
+    .first-do-know-box{ 
+      justify-content: flex-end;
+    }
+    .do-you-know-content{
+      padding: 62px 56px 53px 64px;
+      width: 66%;
+    }
+    .did-you{
+      left: 162px;
+    }
+    .do1{
+      font-size: 44px;
+      line-height: 56px;
+      margin-bottom: 5px;
+    }
+    .do2{
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: -0.4;
+      width: 80%;
+    }
+    /*  */
+    .stories{
+      padding: 128px 160px;
+      flex-direction: row-reverse;
+    }
+    .stories-background-image{
+      width: 57.5%;
+    }
+    .story-box{
+      right: 40%;
+      top: 13%;
+    }
+    .stories-content-button{
+      align-items: start;
+      width: 37%;
+      position: absolute;
+      right: 51%;
+      gap:64px;
+      top: 27.5%;
+    }
+    .stories-content{
+      padding: 52px 64px 63px;
+      text-align: left;
+    }
+    .stories-content-head{
+      font-size: 28px;
+      line-height: 36px;
+      margin-bottom: 19px;
+    }
+    .stories-content-tail{
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.56px;
+    }
+    /*  */
+    .future{
+      padding: 128px 160px 112px;
+      align-items: flex-start;
+    }
+    .future-heading{
+      font-size: 72px;
+      line-height: 76px;
+      text-align: left;
+      width: 80%;
+      margin-bottom: 74px;
+    }
+    .future-image-text{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      margin-bottom: 112px;
+    }
+    .future-image-text-reverse{
+      display: flex;
+      justify-content: space-between;
+    }
+    .future-image > img{
+      width: 100%;
+      margin-top: 0;
+    }
+    .event{
+      top:0%;
+    }
+    .latest-news{
+      top: 0%;
+    }
+    .future-text{
+      width: 40%;
+      gap:22px;
+      align-items: flex-start;
+    }
+    .future-text-head{
+      text-align: left;
+      font-size: 44px;
+      line-height: 56px;
+      margin: 0;
+      margin-top: 20.5%;
+    }
+    .future-text-tail{
+      text-align: left;
+      padding: 0;
+      font-size: 20px;
+      line-height: 32px;
+      letter-spacing: -0.4px;
+    }
+    /*  */
+    .subscribe{
+      display: flex;
+      padding: 69px 160px;
+      align-items: center;
+    }
+    .subscribe-text{
+      padding: 0;
+      width: 50%;
+      font-size:28px ;
+      line-height: 36px;
+    }
+    .input-sub-button{
+      display: flex;
+      width: 50%;
+      justify-content: space-between;
+    }
+    .subscribe input{
+      width: 63%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .subscribe-button{
+      width: 30%;
+    }
+    /*  */
+    footer{
+      padding: 113px 158px 120px 160px;
+    }
+    .green-head{
+      font-size: 22px;
+      line-height: 28px;
+      width: 50%;
+    }
+    .footer-flex{
+      display: flex;
+      gap:96px;
+    }
+    .footer-flex-up{
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.56px;
+    }
+    .footer-flex-down{
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.14px;
+    }
+
+}
