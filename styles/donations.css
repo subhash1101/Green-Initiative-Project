@@ -1,0 +1,445 @@
+@font-face{
+    font-family:Flood;
+    src:url(/Flood-Std-Regular/Flood-Std-Regular.otf);
+}
+body{
+    font-family:Helvetica;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size: 3.7vw;
+}
+p{
+    margin:0;
+}
+header{
+    text-align: center;
+    padding: 1.313rem 7.813rem 1.188rem;
+}
+.title{
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #354463;
+    font-weight: bold;
+}
+.background{
+    background-image:url(/images/donations-mobile.png);
+    display:flex;
+    background-size:cover ;
+    flex-direction:column;
+    padding:2rem 2.0625rem;
+    gap:1.563rem;
+}
+.heading{
+    color:white;
+    text-align:center;
+    font-family:Flood;
+    font-size:2rem;
+    line-height:2.875rem;
+}
+.container{
+    padding:2rem 2rem;
+    color:white;
+    background-color:#354463;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    gap:3.1875rem;
+}
+.info,
+.pay{
+    display:flex;
+    flex-direction:column;
+    gap:1.0625rem;
+}
+.head-title{
+    font-size:1.375rem;
+    line-height:1.75rem;
+    font-weight:bold;
+}
+.input-name{
+    font-size:0.6875rem;
+    line-height:0.8125rem;
+    letter-spacing:0.0275rem;
+    padding-bottom:0.4375rem;
+}
+input{
+    padding-bottom:0.1875rem;
+    background-color:#354463;
+    color:#FFFFFF;
+    font-size:1rem;
+    line-height:1.5rem;
+    letter-spacing:-0.01rem;
+    border:none;
+    width:100%;
+    border-bottom:0.125rem solid #C1F7D5;
+}
+select{
+    background-color:#354463;
+    font-size:1rem;
+    line-height:1.5rem;
+    letter-spacing:-0.01rem;
+    border:none;
+    width:100%;
+    border-bottom:0.125rem solid #C1F7D5;
+    color:#C1F7D5;
+    height: 1.875rem;
+}
+.names{
+    display:flex;
+    width:100%;
+    gap:1rem;
+}
+.first-name{
+    flex:1;
+}
+.last-name{
+    flex:1;
+}
+.city-state-zip{
+    display:flex;
+    gap:1rem;
+}
+.city{
+    flex:1;
+}
+.state-zip{
+    flex:1;
+    display: flex;
+    gap:16px;
+}
+.state{
+    flex:1;
+}
+.zip{
+    flex:1;
+}
+.zip-code{
+    font-size:0.5625rem;
+}
+.date-code{
+    display:flex;
+    gap:1rem;
+}
+.date{
+    flex:1;
+}
+.month-year{
+    display:flex;
+    gap:1rem;
+}
+.code{
+    flex:1;
+}
+.tail{
+    font-weight:bold;
+    font-size:1.125rem;
+    line-height:1.375rem;
+}
+.button-go{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width:100%;
+    gap:1.5rem;
+}
+button{
+    background-color:#C1F7D5;
+    color:#354463;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:3.0625rem;
+    border-radius:3.125rem;
+    border:none;
+    font-size:1rem;
+    line-height:1.25rem;
+    font-weight:bold;
+}
+.button-go>a{
+    font-size:0.875rem;
+    line-height:1.5rem;
+    letter-spacing:-0.00875rem;
+    text-decoration:underline;
+    color:#C1F7D5;
+}
+footer{
+    padding:4.1875rem 2.0625rem;
+}
+.footer-flex{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    row-gap:3.5rem;
+}
+.green-head{
+    width:5.875rem;
+    color:#354463;
+    font-weight:bold;
+    font-size:1.125rem;
+    line-height:1.375rem;
+}
+.footer-flex-up{
+    margin-top:0;
+    margin-bottom: 10px;
+    font-size:0.6875rem;
+    line-height:0.8125rem;
+    letter-spacing:0.0275rem;
+    color:#354463;
+}
+.underline{
+    text-decoration: underline;
+}
+.footer-flex-down{
+    width:8.125rem;
+    font-weight:lighter;
+    font-size:0.875rem;
+    line-height:1.25rem;
+    letter-spacing:-0.009rem;
+    color:#354463;
+    margin:0;
+}
+.stop-climate-change{
+    line-height:2.875rem;
+    font-size:2.75rem;
+    color:#354463;
+    font-family:Flood;
+    text-align:right;
+    grid-column: 2;
+}
+@media (min-width:480px) and (max-width:1023px){
+    html{
+        font-size: 2.05vw;
+    }
+    header{
+        padding:2.0625rem 19.125rem 1.8125rem;
+    }
+    .title{
+        font-size:1.375rem;
+        line-height:1.75rem;
+    }
+    .background{
+        background-image:url(/images/donations-tablet.png);
+        align-items:center;
+        padding:4rem 4rem 5rem;
+        gap:2.625rem;
+        background-size:cover ;
+    }
+    .heading{
+        font-size:2.75rem;
+        line-height:2.875rem;
+        width:70%;
+    }
+    .container{
+        padding:3.625rem 3.375rem 4.375rem;
+    }
+    .info,
+    .pay{
+        gap:1.375rem;
+    }
+    .head-title{
+        font-size:1.75rem;
+        line-height:2.25rem;
+    }
+    .input-name{
+        font-size:0.875rem;
+        line-height:1.0625rem;
+        letter-spacing:0.035rem;
+    }
+    input{
+        font-size:1.25rem;
+        line-height:2rem;
+        letter-spacing:-0.025rem;
+        padding-bottom:0.625rem;
+    }
+    .names{
+        gap:3.875rem;
+    }
+    .city-state-zip{
+        gap:3.875rem;
+    }
+    .state-zip{
+        gap:2.0625rem;
+    }
+    select{
+        font-size:1.25rem;
+        line-height:2rem;
+        letter-spacing:-0.025rem;
+        padding-bottom:0.625rem;
+        height: 2.775rem;
+    }  
+    .tail{
+        font-size:1.75rem;
+        line-height:2.25rem;
+    }
+    .button-go{
+        flex-direction:row-reverse;
+        justify-content:space-between;
+    }
+    button{
+        width:40%;
+        font-size:1.375rem;
+        line-height:1.75rem;
+    }
+    .button-go>a{
+        font-size:1rem;
+        line-height:3.5rem;
+        letter-spacing:-0.01rem;
+    }
+    footer{
+        padding:3.75rem 4.6875rem 3.5625rem 4rem;
+    }
+    .green-head{
+        width:9.5625rem;
+        font-size:1.375rem;
+        line-height:1.75rem;
+    }
+    .footer-flex{
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows:50% 50%;
+        row-gap:2.5rem;
+    }
+    .learn{
+        grid-column:2;
+    }
+    .stop-climate-change{
+        grid-column:3;
+        text-align:left;
+        margin-top:0;
+    }
+}
+
+@media (min-width:1024px){
+    html{
+        font-size: 1.1vw;
+    }
+    header{
+        padding:1.75rem 38.75rem;
+    }
+    .title{
+        font-size:1.75rem;
+        line-height:2.25rem;
+    }
+    .background{
+        padding:5rem 10rem 8rem;
+        background-image:url(/images/donations-desktop.png);
+        flex-direction:row-reverse;
+        background-size:cover;
+        gap:6rem;
+    }
+    .heading{
+        font-size:4.5rem;
+        line-height:4.75rem;
+        text-align:left;
+    }
+    .container{
+        padding:3.625rem 4rem 4.375rem;
+        gap:3.4375rem;
+        width:181%;
+    }
+    .info,
+    .pay{
+        gap:1.8125rem;
+    }
+    .head-title{
+        font-size:1.75rem;
+        line-height:2.25rem;
+    }
+    .input-name{
+        font-size:0.875rem;
+        line-height:1.0625rem;
+        letter-spacing:0.035rem;
+        padding-bottom:0.8125rem;
+    }
+    input{
+        font-size:1.25rem;
+        line-height:2rem;
+        letter-spacing:-0.025rem;
+        border-bottom:0.125rem solid #C1F7D5;
+    }
+    .names{
+        gap:3.9375rem;
+    }
+    .first-name,
+    .last-name,
+    .street,
+    .city,
+    .zip,
+    .state,
+    .email,
+    .credit,
+    .code{
+        display:flex;
+        flex-direction:column;
+    }
+    .city-state-zip{
+        gap:3.9375rem;
+    }
+    .state-zip{
+        gap:2.0625rem;
+    }
+    select{
+        font-size:1.25rem;
+        line-height:2rem;
+        letter-spacing:-0.025rem;
+        border-bottom:0.125rem solid #C1F7D5;
+        height: 2.338rem;
+    }
+    .tail{
+        font-size:1.75rem;
+        line-height:2.25rem;
+    }
+    .button-go{
+        flex-direction:row-reverse;
+        justify-content:space-between;
+    }
+    button{
+        font-size:1.375rem;
+        line-height:1.75rem;
+        width:59%;
+        height:3.5rem;
+    }
+    .button-go>a{
+        font-size:1rem;
+        line-height:3.5rem;
+        letter-spacing:-0.01rem;
+    }
+    footer{
+        padding:7.125rem 9.875rem 7.5625rem 10rem;
+    }
+    .green-head{
+        font-size:1.375rem;
+        line-height:1.75rem;
+        width:20%;
+    }
+    .footer-flex{
+        display:flex;
+        gap:6rem;
+    }
+    .footer-flex-up{
+        font-size:0.875rem;
+        line-height:1.0625rem;
+        letter-spacing:0.035rem;
+        width: 115%;
+    }
+    .contact,
+    .follow,
+    .learn{
+        min-width:0;
+    }
+    .footer-flex-down{
+        text-decoration:none;
+        font-size:0.875rem;
+        line-height:1.25rem;
+        letter-spacing:-0.00875rem;
+    }
+    .underline{
+        text-decoration:none;
+    }
+    .stop-climate-change{
+        font-size:2.75rem;
+        line-height:2.875rem;
+    }
+}
