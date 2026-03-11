@@ -509,7 +509,7 @@ footer{
 
 
 
-@media (min-width: 30rem) and (max-width: 63.9375rem){
+@media (min-width: 480px) and (max-width: 1023px){
     html{
         font-size: 2.05vw;
     }
@@ -545,7 +545,6 @@ footer{
     .donate{
         width: 8.75rem;
     }
-    /*  */
     /*  */
     .first-background{
         background-image: url(home-back/first-tablet.png);
@@ -591,9 +590,7 @@ footer{
         letter-spacing: -0.01rem;
         line-height: 1.5rem;
         width: 95%;
-        /* height: 3.25rem; */
     }
-    /*  */
     /*  */
     .what-we-do-section{
         padding: 3.75rem 3.4375rem;
@@ -613,14 +610,10 @@ footer{
     .what-we-do-content{
         flex-wrap:wrap;
         flex-direction: row-reverse;
-        /* width: 40rem; */
         align-items: end;
         gap:2.5rem;
         padding: 2.25rem 2.625rem 3rem 2rem;
     }
-    /* .what-content-head-body{
-        text-align: left;
-    } */
     .what-content-head{
         margin: 0rem;
         padding-bottom: 2rem;
@@ -629,7 +622,6 @@ footer{
         line-height: 1.75rem;
     }
     .what-content-body{
-        /* width: 15.375rem; */
         margin: 0;
         text-align: left;
         font-size: 1rem;
@@ -648,11 +640,8 @@ footer{
         line-height: 1.375rem;
     }
     /*  */
-    /*  */
     .second-background{
         background-image: url(asset/home/did-you-know-background.png);
-        /* flex-wrap: wrap; */
-        /* height: 52.0625rem; */
         gap:2rem;
         flex-direction: row;
         padding: 3.9375rem;
@@ -660,7 +649,6 @@ footer{
     }
     .second-image-text{
         width: 30%;
-        /* height: 14.25rem; */
         margin-bottom: 0rem;
     }
     .take-action{
@@ -669,9 +657,6 @@ footer{
     .did-you{
         right: 11.9375rem;
     }
-    /* .do1do2{
-        width:70%;
-    } */
     .do-you-know-boxes{
         margin:0;
         gap:2rem;
@@ -691,25 +676,16 @@ footer{
     }
     .do2{
         width: 14rem;
-        /* height: 2.75rem; */
         font-size: 1rem;
         line-height: 1.5rem;
         letter-spacing: -0.01rem;
     }
-    /*  */
     /*  */
     .stories{
         padding: 4rem 4rem 22.9375rem;
         position: relative;
         align-items: start;
     }
-    /* .stories-background{ */
-    /* width: 36rem;
-    height: 35.5rem; */
-    /* justify-content: start;
-    position: relative; */
-    /* margin-bottom: 13.9375rem; */
-    /* } */
     .stories-background-image{
         width: 90%;
         height: 150%;
@@ -724,22 +700,10 @@ footer{
         top: 55%;
         align-items: start;
         width: 74.5%;
-        /* text-align: left; */
-        /* padding: 3.8125rem 1.4375rem 3.9375rem 4rem; */
-        /* position: absolute; */
-        /* bottom:0.625rem; */
-        /* height: 10.3125rem; */
-        /* width: 30.3125rem; */
-        /* top: -35.5rem; */
-        /* top:6.25rem; */
-        /* width: 87.5%;
-        left: 16.5%;
-        top:57%; */
     }
     .stories-content{
         text-align: left;
         padding: 3.8125rem 1.4375rem 3.9375rem 4rem;
-        /* width: 73%; */
     }
     .stories-content-head{
         font-size: 1.375rem;
@@ -820,7 +784,6 @@ footer{
         width: 25%;
     }
     /*  */
-    /*  */
     footer{
         padding: 3.75rem 4.6875rem 3.3125rem 4rem;
     }
@@ -844,310 +807,309 @@ footer{
 
 
 @media (min-width: 1024px){
-html{
-font-size: 1.15vw;
-}
-header{
-flex-direction: row;
-padding: 2.125rem 10rem 1.9375rem;
-}
-.upper-half{
-width: 90%;
-flex-wrap: nowrap;
-flex-direction: row;
-justify-content: space-between;
-}
-.options{
-width: 60%;
-justify-content: space-between;
-flex-direction: row;
-gap:5rem;
-}
-.title{
-width: 20%;
-font-size: 1.375rem;
-line-height: 1.75rem;
-}
-.nav-link{
-font-size: 1rem;
-line-height: 1.5rem;
-letter-spacing: -0.01rem;
-}
-.below-half{
-  align-items: center;
-}
-.donate{
-width: 8.75rem;
-/* padding: 0.625rem; */
-height: 60%;
-}
-/*  */
-.first-background{
-background-image: url(home-back/first-desktop.png);
-flex-direction: row-reverse;
-padding: 8rem 19.0625rem 8rem 10rem;
-align-items: start;
-justify-content: space-between;
-}
-.to-be-center{
-align-items: start;
-justify-content: start;
-padding: 4.125rem 4rem 4.6875rem;
-margin-top: 0;
-width:45%;
-}
-.first-image-text{
-width: 30%;
-font-size: 4.5rem;
-line-height: 4.75rem;
-}
-.the-issue-content-head{
-margin: 0;
-font-size: 2.75rem;
-line-height: 3.5rem;
-text-align: left;
-}
-.the-issue-content-down{
-font-size: 1rem;
-line-height: 1.5rem;
-letter-spacing: -0.01rem;
-padding: 0;
-margin-top: 1.875rem;
-}
-/*  */
-.below-first-background{
-padding: 4.6875rem 10rem 4.875rem;
-}
-.actions{
-gap:3.5rem;
-flex-direction: row;
-}
-.learn-volunteer{
-gap:3.5rem;
-}
-.share-donate{
-gap:3.5rem;
-}
-.action-head{
-font-size: 1.75rem;
-line-height: 2.25rem;
-}
-.action-content{
-font-size: 1rem;
-line-height: 1.5rem;
-letter-spacing: -0.01rem;
-}
-/*  */
-.what-we-do-section{
-padding: 5.5rem 9.875rem 10rem 10rem;
-align-items: flex-start;
-}
-.what-we-do-text{
-font-size: 2.75rem;
-line-height: 3.5rem;
-text-align: left;
-}
-.contents-of-what{
-display: flex;
-flex-direction: row;
-gap:2rem;
-justify-content: space-between;
-}
-.what-we-do-content{
-align-items: flex-start;
-width: 22.5%;
-padding-top: 12.5rem;
-}
-.what-we-image{
-width: 100%;
-height: 44%;
-}
-.what-content-head-body{
-width: 98%;
-}
-.what-content-head{
-text-align: left;
-font-size: 1.75rem;
-line-height: 2.25rem;
-}
-.what-content-body{
-text-align: left;
-font-size: 1rem;
-line-height: 1.5rem;
-letter-spacing: -0.01rem;
-}
-/*  */
-.second-background{
-background-image: url(home-back/second-desktop.png);
-flex-direction: row;
-justify-content: space-between;
-padding: 8.9375rem 10rem 7.9375rem;
-}
-.second-image-text{
-font-size: 4.5rem;
-line-height: 4.75rem;
-gap:3.5625rem;
-width:35%
-}
-.do-you-know-boxes{
-margin: 0;
-gap: 2rem;
-align-items: flex-end;
-}
-.first-do-know-box{
-justify-content: flex-end;
-}
-.do-you-know-content{
-padding: 3.875rem 3.5rem 3.3125rem 4rem;
-width: 66%;
-}
-.did-you{
-left: 10.125rem;
-}
-.do1{
-font-size: 2.75rem;
-line-height: 3.5rem;
-margin-bottom: 0.3125rem;
-}
-.do2{
-font-size: 1.25rem;
-line-height: 1.875rem;
-letter-spacing: -0.025rem;
-width: 80%;
-}
-/*  */
-.stories{
-padding: 8rem 10rem;
-flex-direction: row-reverse;
-}
-.stories-background-image{
-width: 57.5%;
-}
-.story-box{
-right: 40%;
-top: 13%;
-}
-.stories-content-button{
-align-items: start;
-width: 37%;
-position: absolute;
-right: 51%;
-gap:4rem;
-top: 27.5%;
-}
-.stories-content{
-padding: 3.25rem 4rem 3.9375rem;
-text-align: left;
-}
-.stories-content-head{
-font-size: 1.75rem;
-line-height: 2.25rem;
-margin-bottom: 1.1875rem;
-}
-.stories-content-tail{
-font-size: 0.875rem;
-line-height: 1.0625rem;
-letter-spacing: 0.035rem;
-}
-/*  */
-.future{
-padding: 8rem 10rem 7rem;
-align-items: flex-start;
-}
-.future-heading{
-font-size: 4.5rem;
-line-height: 4.75rem;
-text-align: left;
-width: 80%;
-margin-bottom: 4.625rem;
-}
-.future-image-text{
-display: flex;
-justify-content: space-between;
-margin-bottom: 7rem;
-}
-.future-image-text-reverse{
-display: flex;
-flex-direction: row-reverse;
-justify-content: space-between;
-}
-.future-image > img{
-width: 100%;
-margin-top: 0;
-}
-.event{
-top:0%;
-}
-.latest-news{
-top: 0%;
-}
-.future-text{
-width: 40%;
-gap:1.375rem;
-align-items: flex-start;
-}
-.future-text-head{
-text-align: left;
-font-size: 2.75rem;
-line-height: 3.5rem;
-margin: 0;
-margin-top: 20.5%;
-}
-.future-text-tail{
-text-align: left;
-padding: 0;
-font-size: 1.25rem;
-line-height: 2rem;
-letter-spacing: -0.025rem;
-}
-/*  */
-.subscribe{
-display: flex;
-padding: 4.3125rem 10rem;
-align-items: center;
-}
-.subscribe-text{
-padding: 0;
-width: 50%;
-font-size:1.75rem;
-line-height: 2.25rem;
-}
-.input-sub-button{
-display: flex;
-width: 50%;
-justify-content: space-between;
-}
-.subscribe input{
-width: 63%;
-text-align: left;
-padding-left: 1.875rem;
-margin-left: 0.625rem;
-margin-right: 0.625rem;
-}
-.subscribe-button{
-width: 30%;
-}
-/*  */
-footer{
-padding: 7.0625rem 9.875rem 7.5rem 10rem;
-}
-.green-head{
-font-size: 1.375rem;
-line-height: 1.75rem;
-width: 50%;
-}
-.footer-flex{
-display: flex;
-gap:6rem;
-}
-.footer-flex-up{
-font-size: 0.875rem;
-line-height: 1.0625rem;
-letter-spacing: 0.035rem;
-}
-.footer-flex-down{
-font-size: 0.875rem;
-line-height: 1.25rem;
-letter-spacing: -0.00875rem;
-}
+  html{
+    font-size: 1.15vw;
+  }
+  header{
+    flex-direction: row;
+    padding: 2.125rem 10rem 1.9375rem;
+  }
+  .upper-half{
+    width: 90%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .options{
+    width: 60%;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:5rem;
+  }
+  .title{
+    width: 20%;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+  }
+  .nav-link{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.01rem;
+  }
+  .below-half{
+    align-items: center;
+  }
+  .donate{
+    width: 8.75rem;
+    height: 60%;
+  }
+  /*  */
+  .first-background{
+    background-image: url(home-back/first-desktop.png);
+    flex-direction: row-reverse;
+    padding: 8rem 19.0625rem 8rem 10rem;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .to-be-center{
+    align-items: start;
+    justify-content: start;
+    padding: 4.125rem 4rem 4.6875rem;
+    margin-top: 0;
+    width:45%;
+  }
+  .first-image-text{
+    width: 30%;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+  }
+  .the-issue-content-head{
+    margin: 0;
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    text-align: left;
+  }
+  .the-issue-content-down{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.01rem;
+    padding: 0;
+    margin-top: 1.875rem;
+  }
+  /*  */
+  .below-first-background{
+    padding: 4.6875rem 10rem 4.875rem;
+  }
+  .actions{
+    gap:3.5rem;
+    flex-direction: row;
+  }
+  .learn-volunteer{
+    gap:3.5rem;
+  }
+  .share-donate{
+    gap:3.5rem;
+  }
+  .action-head{
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  .action-content{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.01rem;
+  }
+  /*  */
+  .what-we-do-section{
+    padding: 5.5rem 9.875rem 10rem 10rem;
+    align-items: flex-start;
+  }
+  .what-we-do-text{
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    text-align: left;
+  }
+  .contents-of-what{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: space-between;
+  }
+  .what-we-do-content{
+    align-items: flex-start;
+    width: 22.5%;
+    padding-top: 12.5rem;
+  }
+  .what-we-image{
+    width: 100%;
+    height: 44%;
+  }
+  .what-content-head-body{
+    width: 98%;
+  }
+  .what-content-head{
+    text-align: left;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  .what-content-body{
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.01rem;
+  }
+  /*  */
+  .second-background{
+    background-image: url(home-back/second-desktop.png);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8.9375rem 10rem 7.9375rem;
+  }
+  .second-image-text{
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    gap:3.5625rem;
+    width:35%
+  }
+  .do-you-know-boxes{
+    margin: 0;
+    gap: 2rem;
+    align-items: flex-end;
+  }
+  .first-do-know-box{
+    justify-content: flex-end;
+  }
+  .do-you-know-content{
+    padding: 3.875rem 3.5rem 3.3125rem 4rem;
+    width: 66%;
+  }
+  .did-you{
+    left: 10.125rem;
+  }
+  .do1{
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    margin-bottom: 0.3125rem;
+  }
+  .do2{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    letter-spacing: -0.025rem;
+    width: 80%;
+  }
+  /*  */
+  .stories{
+    padding: 8rem 10rem;
+    flex-direction: row-reverse;
+  }
+  .stories-background-image{
+    width: 57.5%;
+  }
+  .story-box{
+    right: 40%;
+    top: 13%;
+  }
+  .stories-content-button{
+    align-items: start;
+    width: 37%;
+    position: absolute;
+    right: 51%;
+    gap:4rem;
+    top: 27.5%;
+  }
+  .stories-content{
+    padding: 3.25rem 4rem 3.9375rem;
+    text-align: left;
+  }
+  .stories-content-head{
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.1875rem;
+  }
+  .stories-content-tail{
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.035rem;
+  }
+  /*  */
+  .future{
+    padding: 8rem 10rem 7rem;
+    align-items: flex-start;
+  }
+  .future-heading{
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 4.625rem;
+  }
+  .future-image-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+  }
+  .future-image-text-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .future-image > img{
+    width: 100%;
+    margin-top: 0;
+  }
+  .event{
+    top:0%;
+  }
+  .latest-news{
+    top: 0%;
+  }
+  .future-text{
+    width: 40%;
+    gap:1.375rem;
+    align-items: flex-start;
+  }
+  .future-text-head{
+    text-align: left;
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    margin: 0;
+    margin-top: 20.5%;
+  }
+  .future-text-tail{
+    text-align: left;
+    padding: 0;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    letter-spacing: -0.025rem;
+  }
+  /*  */
+  .subscribe{
+    display: flex;
+    padding: 4.3125rem 10rem;
+    align-items: center;
+  }
+  .subscribe-text{
+    padding: 0;
+    width: 50%;
+    font-size:1.75rem;
+    line-height: 2.25rem;
+  }
+  .input-sub-button{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .subscribe input{
+    width: 63%;
+    text-align: left;
+    padding-left: 1.875rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+  }
+  .subscribe-button{
+    width: 30%;
+  }
+  /*  */
+  footer{
+    padding: 7.0625rem 9.875rem 7.5rem 10rem;
+  }
+  .green-head{
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    width: 50%;
+  }
+  .footer-flex{
+    display: flex;
+    gap:6rem;
+  }
+  .footer-flex-up{
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.035rem;
+  }
+  .footer-flex-down{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.00875rem;
+  }
 }
