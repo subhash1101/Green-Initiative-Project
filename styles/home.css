@@ -640,7 +640,7 @@ footer{
     }
     /*  */
     .second-background{
-        background-image: url(asset/home/did-you-know-background.png);
+        background-image: url(/images/second-tablet.png);
         gap:2rem;
         flex-direction: row;
         padding: 3.9375rem;
